@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* CSS header */
+.hn {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav>a:hover {
+    background-color: azure;
+}
+
+.nav {
+    background-color: greenyellow;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+}
+.btn-search{
+    display: flex;
+    align-items: center;
+}
+.nav>.btn-search {
+    position: absolute;
+    right: 20px;
+}
+
+.btn-search>input {
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.nav-item {
+    display: block;
+    padding: 15px;
+}
+
+.nav>a {
+    color: black;
+    margin-right: 20px;
+}
+
+/* CSS slide */
+.intro>#a>img {
+    width: 100vw;
+    height: 450px;
+    object-fit: cover;
+}
+
+.anh2>#b>img {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.anh3>#c>img {
+    width: 900px;
+    /* margin-left: 310px; */
+}
+
+.end {
+    text-align: center;
+}
+
+.end>a:hover {
+    color: blue;
+}
+
+.footer {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer>#d {
+    background-color: orangered;
+    color: #ffffff;
+    width: 100vw;
+}
+
+#doan-2>.single-li>a:hover {
+    color: red;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-bottom: 0px;
+}
+
+
+li>a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+li:hover {
+    font-weight: bold;
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.single-li {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-li>h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.single-li>img {
+    width: 900px;
+}

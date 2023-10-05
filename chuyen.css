@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-image:
+        url(https://img.freepik.com/premium-photo/halloween-pumpkins-scary-cemetery-realistic-halloween-festival-illustration_28952-519.jpg?auto=format&w=917&h=480);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+.hn {
+    display: flex;
+    justify-content: center;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav>a:hover {
+    background-color: azure;
+}
+
+.nav {
+    background-color: greenyellow;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    top: 0;
+    /* justify-content: center; */
+}
+
+.nav>.btn-search {
+    position: absolute;
+    right: 10px;
+}
+
+.btn-search>input {
+    border: none;
+    border-radius: 10px;
+    /* padding: 5px; */
+    height: 20px;
+}
+
+.nav-item {
+    display: block;
+    padding: 10px;
+}
+
+.nav>a {
+    color: black;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.khung {
+    width: 800px;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
